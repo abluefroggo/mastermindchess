@@ -7,7 +7,7 @@ import App from './App';
 
 import "./sections/LandingPage.css";
 import chessGif from "./assets/chessgif.gif";
-import mastermindsLogo from "./assets/logo.svg";
+import mastermindsLogo from "./assets/mastermindslogo.png";
 
 export default function LandingPage() {
   const [openDay, setOpenDay] = useState(null);
