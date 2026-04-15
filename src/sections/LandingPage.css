@@ -162,13 +162,30 @@ body {
 }
 
 /* Instructor */
+.instructors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .instructor-card {
-  max-width: 700px;
-  margin: auto;
   background: white;
-  padding: 25px;
+  padding: 20px;
   border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.instructor-card h3 {
+  margin: 0 0 10px;
+  color: #0338d6;
+}
+
+.instructor-card p {
+  margin: 0;
+  line-height: 1.55;
 }
 
 /* Schedule */
