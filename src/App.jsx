@@ -7,6 +7,7 @@ import App from './App';
 
 import "./sections/LandingPage.css";
 import chessGif from "./assets/chessgif.gif";
+import mastermindsLogo from "./assets/logo.svg";
 
 export default function LandingPage() {
   const [openDay, setOpenDay] = useState(null);
@@ -49,7 +50,9 @@ export default function LandingPage() {
       {/* Hero Section */}
       <header className="hero">
         <nav className="navbar">
-          <div className="logo"> Masterminds Chess Camp 2026</div>
+          <div className="logo">
+            <img src={mastermindsLogo} alt="Masterminds Chess Camp logo" />
+          </div>
           <div className="nav-links">
             <a href="/about" className="nav-link">
               About the Organization
